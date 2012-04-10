@@ -1,5 +1,7 @@
 package com.work6.infow.ui;
 
+import com.work6.infow.R;
+
 import android.app.Activity;
 import android.os.Bundle;
 
