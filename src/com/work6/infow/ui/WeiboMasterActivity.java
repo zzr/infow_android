@@ -1,11 +1,10 @@
 package com.work6.infow.ui;
 
-import com.work6.infow.R;
-
-import android.app.Activity;
 import android.os.Bundle;
 
-public class WeiboMasterActivity extends Activity {
+import com.work6.infow.R;
+
+public class WeiboMasterActivity extends WeiboMasterParentActivity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
