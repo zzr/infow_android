@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/weibomaster_leftpressed" android:state_pressed="true"/><!-- pressed -->
+    <item android:drawable="@drawable/ic_launcher" android:state_focused="true"/><!-- focused -->
+    <item android:drawable="@drawable/weibomaster_left"/><!-- default -->
+    <!-- <item>元素的顺序很重要，因为是根据这个顺序判断是否适用于当前按钮状态，这也是为什么正常（默认）状态指定的图片放在最后，是因为它只会在pressed和focused都判断失败之后才会被采用。
+    	（注：例如按钮被按下时是同时获得焦点的，但是获得焦点并不一定按了按钮，所以这里会按顺序查找，找到合适的就不往下找了。这里按钮被点击了，那么第一个将被选中，且不再在后面查找其他状态。） -->
+
+</selector>

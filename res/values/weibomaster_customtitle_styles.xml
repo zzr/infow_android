@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><!-- 标题样式设定文件 -->
+
+    <style name="MyCustom" parent="android:style/Theme.Light">
+        <item name="android:windowTitleBackgroundStyle">@style/titleBg</item>
+        <item name="android:windowTitleSize">57px</item><!-- name="android:windowTitleSize"设置标题高度 -->
+        <item name="android:textColor">#ffffff</item><!-- name="android:textColor"#3e586f设置标题字颜色 -->
+    </style>
+
+    <style name="titleBg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/weibomaster_customtitle_background</item><!-- name="android:background"设置标题背景图片或颜色 -->
+        <item name="android:paddingLeft">20px</item>
+        <item name="android:paddingRight">20px</item>
+    </style>
+
+</resources>

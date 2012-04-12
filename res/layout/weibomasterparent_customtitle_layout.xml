@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 标题内的布局文件 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10px" >
+
+    <ImageButton
+        android:id="@+id/custom_left_imagebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+         /><!-- 使用样式设定按钮的默认样式和按下的样式android:background="@drawable/myselector"; 
+         		半透明: android:background="#e0000000"; 
+         		透明: android:background="#00000000"注意设置透明了按下按钮的样子没有了 -->
+
+    <TextView
+        android:id="@+id/custom_center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="微博"
+        android:textSize="30px" />
+
+    <ImageButton
+        android:id="@+id/custom_right_imagebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
