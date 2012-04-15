@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/weibo_bottompic"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:id="@+id/edit"
+        android:text="测试"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/weibo_ic_dialog_alert"
+        android:layout_alignParentLeft="true"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"        
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/menu2"
+        android:text="测试"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/weibo_ic_dialog_dialer"
+        android:layout_toRightOf="@id/edit"    
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"    
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/effect"
+        android:text="测试"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/weibo_ic_dialog_email"
+        android:layout_toRightOf="@id/menu2"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"        
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/menu3"
+        android:text="测试"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/weibo_ic_dialog_info"
+        android:layout_toRightOf="@id/effect"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"        
+        >
+    </TextView>
+</RelativeLayout>
+
