@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+   
+<LinearLayout 
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+         android:layout_height="fill_parent"
+       
+         android:layout_centerHorizontal="true" android:orientation="vertical">
+       <TextView
+           android:textColor="#000000"
+           android:text="dfds"
+           android:gravity="center"
+    android:id="@+id/newsdetailtitle"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        
+    />
+        <TextView
+            android:textColor="#000000"
+           android:text="dfds"
+           android:gravity="center"
+    android:id="@+id/newsdetailtime"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        
+    />
+
+        <WebView
+         
+            android:id="@+id/newsdetail"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" />
+ 
+</LinearLayout>
+    
+
+</RelativeLayout>
